@@ -1,0 +1,132 @@
+body {
+  font-family: "Raleway";
+}
+h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 60px;
+  font-weight: 900;
+  padding-top: 20px;
+  text-align: center;
+}
+
+form {
+  position: relative;
+  left: 160px;
+}
+
+.background {
+  background-color: #e8f3dc;
+  max-width: 700px;
+  max-height: 700px;
+}
+.sun {
+  background: #f6c56f;
+  border-radius: 50%;
+  height: 600px;
+  width: 600px;
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+.currentLocation {
+  background-color: transparent;
+  border: 0px;
+}
+#current-time {
+  text-align: center;
+  position: relative;
+  top: -10px;
+}
+
+.currentTemperature {
+  font-size: 75px;
+  font-weight: 700;
+  padding: 0;
+  position: relative;
+  top: -10px;
+  left: 160px;
+  margin: 0;
+}
+
+.measurement {
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 700;
+  position: relative;
+  left: 160px;
+  top: -60px;
+  padding: 2px;
+}
+
+.farenheit {
+  padding: 0px 4px;
+}
+.celcius {
+  padding: 0px 3px;
+}
+
+.today {
+  font-size: 12px;
+  position: relative;
+  top: -80px;
+  left: 275px;
+}
+.currentWeather {
+  font-weight: 700;
+}
+
+.forecastView {
+  position: relative;
+  left: 225px;
+}
+.dailyHourly {
+  position: relative;
+  top: -70px;
+}
+.toggleView {
+  border: 1px solid #ffa726;
+  border-radius: 4px;
+}
+
+.toggleView:hover {
+  background: #ffa726;
+  font-weight: 700;
+}
+
+.arrow {
+  border: 1px solid black;
+  border-radius: 4px;
+}
+.dailyDetail {
+  position: relative;
+  top: -50px;
+  border: 1px solid black;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.dailyHeader {
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+}
+.dailySubheader {
+  font-size: 10px;
+  font-weight: 700;
+}
+.dailyHiLo,
+.dailyPrecip {
+  font-size: 12px;
+}
+
+.dailyRiseSet {
+  font-size: 10px;
+}
+
+.updateTime {
+  position: relative;
+  top: -80px;
+  font-style: italic;
+  padding: 30px;
+  text-align: center;
+}
