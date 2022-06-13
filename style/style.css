@@ -130,3 +130,14 @@ form {
   padding: 30px;
   text-align: center;
 }
+a {
+  color: black;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-style: italic;
+}
+
+a:hover {
+  color: #ffa726;
+}
